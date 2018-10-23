@@ -13,14 +13,14 @@ The data can be placed inside the data folder. It can be referenced by passing i
 
 
 ## Usage:
-Usage: python3 forecaster/RunnerPrediction.py <path-to-data-file> <window-size>
+`Usage: python3 forecaster/RunnerPrediction.py <path-to-data-file> <window-size>`
 
 
 The main program requires the user to specify a legal path to a data file and a window size for autoregression to slide over. For instance,
 
-python3 forecaster/RunnerPrediction.py data/words.csv 24
+`python3 forecaster/RunnerPrediction.py data/words.csv 24`
 
-python3 forecaster/RunnerPrediction.py data/words2.csv 24
+`python3 forecaster/RunnerPrediction.py data/words2.csv 24`
 
 are legal.
 
